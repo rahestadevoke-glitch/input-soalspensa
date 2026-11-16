@@ -493,6 +493,15 @@ input[type="file"].fi-file {
   text-decoration: none; display: inline-flex; align-items: center; gap: 5px;
 }
 .btn-edit:hover { border-color: var(--info); color: var(--info); }
+.btn-import, .btn-bekukan {
+  padding: 11px 16px; border-radius: var(--radius-sm);
+  border: 1.5px solid var(--border); background: var(--surface);
+  font-size: 13px; font-weight: 700; color: var(--text); cursor: pointer; transition: .15s;
+  white-space: nowrap; font-family: var(--font);
+  text-decoration: none; display: inline-flex; align-items: center; gap: 5px;
+}
+.btn-import:hover { border-color: var(--success); color: var(--success); }
+.btn-bekukan:hover { border-color: var(--info); color: var(--info); }
 .btn-clear-local {
   padding: 11px 14px; border-radius: var(--radius-sm);
   border: 1.5px solid var(--border); background: var(--surface);
@@ -910,10 +919,12 @@ body{
     </div>
     <div class="bar-actions">
       <div class="bar-tools">
-      <a class="btn-cetak" href="https://rahestadevoke-glitch.github.io/cetak-soalspensa/" target="_blank" rel="noopener noreferrer">🖨 Cetak Soal</a>
-      <a class="btn-nilai" href="https://rahestadevoke-glitch.github.io/ceknilai-walasspensa/" target="_blank" rel="noopener noreferrer">📊 Cek Nilai</a>
-      <a class="btn-analisis" href="https://rahestadevoke-glitch.github.io/analisis-butirsoalspensa/" target="_blank" rel="noopener noreferrer">📈 Analisis Butir Soal</a>
-      <a class="btn-edit" href="https://rahestadevoke-glitch.github.io/edit-soalspensa/" target="_blank" rel="noopener noreferrer">✏️ Edit Soal</a>
+      <a class="btn-cetak" href="https://casstpod-create.github.io/cetaksoal1ciranjang/" target="_blank" rel="noopener noreferrer">🖨 Cetak Soal</a>
+      <a class="btn-nilai" href="https://casstpod-create.github.io/CEKNILAIWALAS1CIRANJANG/" target="_blank" rel="noopener noreferrer">📊 Cek Nilai</a>
+      <a class="btn-analisis" href="https://casstpod-create.github.io/anasoal1ciranjang/" target="_blank" rel="noopener noreferrer">📈 Analisis Butir Soal</a>
+      <a class="btn-edit" href="https://cpod19566-jpg.github.io/editor-soal/" target="_blank" rel="noopener noreferrer">✏️ Edit Soal</a>
+      <a class="btn-import" href="https://rahestadevoke-glitch.github.io/IMPORT-SOALSPENSA/" target="_blank" rel="noopener noreferrer">📥 Import Soal</a>
+      <a class="btn-bekukan" href="https://rahestadevoke-glitch.github.io/bekukan-soalspensa/" target="_blank" rel="noopener noreferrer">❄️ Bekukan Soal</a>
       <button class="btn-preview"     onclick="showPreviewModal()">👁 Preview</button>
       <button class="btn-clear-local" onclick="confirmClearLocal()">🗑 Bersihkan</button>
       </div>
